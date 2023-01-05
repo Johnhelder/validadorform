@@ -35,3 +35,12 @@ body{
   display: block;
   margin-bottom: 20px;
 }
+
+.rightside input{
+  width: 100%;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 14px;
+  outline: 0;
+}
