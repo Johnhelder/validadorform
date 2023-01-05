@@ -44,3 +44,17 @@ body{
   font-size: 14px;
   outline: 0;
 }
+
+.cadastrar{
+  padding: 10px;
+  color: #000000;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cadastrar:hover{
+  background-color: antiquewhite;
+  color: blue;
+  cursor: pointer;
+}
