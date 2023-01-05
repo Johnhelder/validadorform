@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -24,4 +28,10 @@ body{
 .rightside{
   width: 400px;
   background: #ddd;
+  padding: 50px;
+}
+
+.rightside label{
+  display: block;
+  margin-bottom: 20px;
 }
