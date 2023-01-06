@@ -13,6 +13,16 @@ let B7Validator = {
         //exibri o erro
       }
     }
+    send = false;
+    if(send){
+      form.submit();
+    }
+  },
+  checkInput:(input) =>{
+    let rules = input.getAttribute('data-rules');
+    if(rules !== null){
+      
+    }
   }
 }
 
