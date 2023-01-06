@@ -1,6 +1,10 @@
 let B7Validator = {
   handleSubmit:(event)=>{
     event.preventDefault();
+    let send = true;
+
+    let inputs = form.querySelectorAll('input');
+    
   }
 }
 
