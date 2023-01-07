@@ -10,7 +10,7 @@ let B7Validator = {
       let check = B7Validator.checkInput(input);
       if(check !== true){
         send = false;
-        //exibri o erro
+        B7Validator.showError(input, check);
       }
     }
     
@@ -36,8 +36,11 @@ let B7Validator = {
       }
     }
     return true;
+  },
+  showError:(input, error) =>{
+    input.style.borderColor = 'FF0000';
   }
-}
+};
 
 let form = document.querySelector('.b7validator');
 form.addEventListener('submit', B7Validator.handleSubmit);
