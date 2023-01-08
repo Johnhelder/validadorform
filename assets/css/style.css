@@ -58,3 +58,11 @@ body{
   color: blue;
   cursor: pointer;
 }
+
+.error{
+  font-size: 11px;
+  background-color: #FF0000;
+  color: #ffffff;
+  padding: 4px;
+  border-radius: 5px;
+}
